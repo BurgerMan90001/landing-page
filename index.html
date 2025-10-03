@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="assets/main.css" />
+    <!--favicon link-->
+    <!--<link rel="icon" href="./favicon.ico" type="image/x-icon">-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-logo">Header Logo</div>
+        <ul class="header-links">
+          <li>header link one</li>
+          <li>header link two</li>
+          <li>header link three</li>
+        </ul>
+      </header>
+      <main><h1>This website is awesome</h1></main>
+      <section></section>
+      <section></section>
+      <footer>Copyright Paul</footer>
+    </div>
+  </body>
+</html>
+<style>
+  body {
+    height: 100vh;
+  }
+  main {
+    flex: auto;
+  }
+  section {
+    flex: auto;
+  }
+
+  .wrapper {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    flex: auto;
+  }
+  .header-logo {
+    background-color: red;
+  }
+  .header-links {
+    display: flex;
+    background-color: aqua;
+  }
+</style>
