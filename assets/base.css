@@ -1,0 +1,10 @@
+:root {
+  --navy-blue: #1f2937;
+  --light-blue: #3882F6;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

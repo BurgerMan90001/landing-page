@@ -1,0 +1,82 @@
+@import "./base.css";
+
+.hero-section {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-around;
+
+  color: white;
+  background-color: var(--navy-blue);
+}
+header {
+  display: flex;
+
+  padding: 16px;
+  background-color: var(--navy-blue);
+}
+footer {
+  height: 50px;
+  background-color: var(--navy-blue);
+
+  text-align: center;
+}
+.hero-message-container {
+  text-align: center;
+  flex: auto;
+}
+.image-placeholder-container {
+  flex: auto;
+}
+
+.image-placeholder {
+  width: 400px;
+  height: 200px;
+
+  background-color: grey;
+
+  text-align: center;
+
+  margin: auto;
+}
+.call-to-action-section {
+  display: flex;
+}
+section {
+  height: 500px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: white;
+}
+.quote-section {
+  background-color: #e5e7eb;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+.header-links {
+  display: flex;
+  gap: 16px;
+}
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  /* default text color */
+  color: white;
+
+  font-family: "Roboto", "Times New Roman", Times, serif;
+}
