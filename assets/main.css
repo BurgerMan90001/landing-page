@@ -79,6 +79,8 @@ a {
 }
 .quote-section {
   background-color: #e5e7eb;
+
+  padding: 16px;
 }
 
 .header-logo {
