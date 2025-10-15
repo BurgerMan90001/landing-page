@@ -1,2 +1,1 @@
-### Visit the site at 
-https://landing-page-zpnu.onrender.com
+### Visit the site at https://landing-page-zpnu.onrender.com
